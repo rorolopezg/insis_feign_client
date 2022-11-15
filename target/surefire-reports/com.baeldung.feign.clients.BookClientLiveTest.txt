@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.baeldung.feign.clients.BookClientLiveTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 4.411 s <<< FAILURE! - in com.baeldung.feign.clients.BookClientLiveTest
+givenBookClient_shouldRunSuccessfully  Time elapsed: 1.723 s  <<< ERROR!
+feign.RetryableException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:8081 executing GET http://localhost:8081/api/books
+	at com.baeldung.feign.clients.BookClientLiveTest.givenBookClient_shouldRunSuccessfully(BookClientLiveTest.java:35)
+Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:8081
+	at com.baeldung.feign.clients.BookClientLiveTest.givenBookClient_shouldRunSuccessfully(BookClientLiveTest.java:35)
+Caused by: java.net.ConnectException: Connection refused
+	at com.baeldung.feign.clients.BookClientLiveTest.givenBookClient_shouldRunSuccessfully(BookClientLiveTest.java:35)
+
+givenBookClient_shouldFindOneBook  Time elapsed: 1.255 s  <<< ERROR!
+feign.RetryableException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:8081 executing GET http://localhost:8081/api/books/0151072558
+	at com.baeldung.feign.clients.BookClientLiveTest.givenBookClient_shouldFindOneBook(BookClientLiveTest.java:42)
+Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:8081
+	at com.baeldung.feign.clients.BookClientLiveTest.givenBookClient_shouldFindOneBook(BookClientLiveTest.java:42)
+Caused by: java.net.ConnectException: Connection refused
+	at com.baeldung.feign.clients.BookClientLiveTest.givenBookClient_shouldFindOneBook(BookClientLiveTest.java:42)
+
+givenBookClient_shouldPostBook  Time elapsed: 1.257 s  <<< ERROR!
+feign.RetryableException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:8081 executing POST http://localhost:8081/api/books
+	at com.baeldung.feign.clients.BookClientLiveTest.givenBookClient_shouldPostBook(BookClientLiveTest.java:51)
+Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:8081
+	at com.baeldung.feign.clients.BookClientLiveTest.givenBookClient_shouldPostBook(BookClientLiveTest.java:51)
+Caused by: java.net.ConnectException: Connection refused
+	at com.baeldung.feign.clients.BookClientLiveTest.givenBookClient_shouldPostBook(BookClientLiveTest.java:51)
+
