@@ -1,0 +1,80 @@
+{
+	"Envelope": {
+		"Header": {
+			"WorkContext": "rO0ABXdXACN3ZWJsb2dpYy5hcHAuaW5zaXMtd2ViLXNlcnZpY2VzLXYxMAAAANYAAAAjd2VibG9naWMud29ya2FyZWEuU3RyaW5nV29ya0NvbnRleHQAAzEuMAAA"
+		},
+		"Body": {
+			"FindPersonByPIDRs": {
+				"Entity": {
+					"CompanyData": {
+						"Name": "N.GODDARD SEGUROS (BESINAL S.A.)",
+						"CustomerID": "RUT6000001283"
+					},
+					"ManID": "6000001283",
+					"Nationality": "UY",
+					"DataSource": "INT",
+					"RegistrationDate": "2021-03-26T15:52:55",
+					"Documents": {
+						"Document": {
+							"DocSeq": "166200000000000026789",
+							"DocumentID": "RUT",
+							"DocumentName": "R.U.T",
+							"DocumentNo": "006000001283",
+							"DocState": "2"
+						}
+					},
+					"CustomProperties": {
+						"CustomProperty": {
+							"FieldName": "ATTR2",
+							"Value": "F"
+						},
+						"CustomProperty": {
+							"FieldName": "ATTR3",
+							"Value": "1"
+						},
+						"CustomProperty": {
+							"FieldName": "ATTR4",
+							"Value": "URUGUAY"
+						}
+					}
+				},
+				"Addresses": {
+					"Address": {
+						"AddressID": "61400000008028",
+						"Country": "Uruguay",
+						"CountryCode": "UY",
+						"State": "Artigas",
+						"CountryState": "1",
+						"Region": "Artigas",
+						"StateRegion": "1",
+						"City": "Artigas",
+						"CityCode": "1",
+						"ResidentialAddress": {
+							"QuarterName": "Artigas",
+							"StreetName": "Artigas",
+							"StreetID": "1",
+							"StreetNo": "1",
+							"BlockNo": "2",
+							"Entrance": "3"
+						},
+						"ZipCode": "-1",
+						"AddressType": "02",
+						"Address": "AV. ITALIA 7519",
+						"MailYN": "N",
+						"InvoiceYN": "N"
+					}
+				},
+				"Contacts": {
+					"Contact": {
+						"ContactID": "61500000005330",
+						"Type": "08",
+						"Details": "mendez.jorge@kopernicus.tech",
+						"PrimaryFlag": "true",
+						"ValidFrom": "2020-03-25",
+						"ValidTo": "2120-03-01"
+					}
+				}
+			}
+		}
+	}
+}

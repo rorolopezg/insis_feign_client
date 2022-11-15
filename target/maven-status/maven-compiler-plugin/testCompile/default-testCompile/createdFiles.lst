@@ -1,0 +1,7 @@
+com/baeldung/feign/clients/header/staticheader/parameterized/BookClientLiveTest.class
+com/baeldung/feign/clients/header/staticheader/BookClientLiveTest.class
+com/baeldung/feign/clients/header/dynamicheader/BookClientLiveTest.class
+com/baeldung/feign/soap/FeignLiveTest.class
+com/baeldung/feign/clients/header/interceptor/BookClientLiveTest.class
+com/baeldung/feign/retry/Custom5xxErrorDecoderUnitTest.class
+com/baeldung/feign/clients/BookClientLiveTest.class

@@ -1,0 +1,7 @@
+/Users/rodrigolopezgatica/Documents/Baeldung/feign/src/test/java/com/baeldung/feign/retry/Custom5xxErrorDecoderUnitTest.java
+/Users/rodrigolopezgatica/Documents/Baeldung/feign/src/test/java/com/baeldung/feign/soap/FeignLiveTest.java
+/Users/rodrigolopezgatica/Documents/Baeldung/feign/src/test/java/com/baeldung/feign/clients/header/dynamicheader/BookClientLiveTest.java
+/Users/rodrigolopezgatica/Documents/Baeldung/feign/src/test/java/com/baeldung/feign/clients/header/staticheader/parameterized/BookClientLiveTest.java
+/Users/rodrigolopezgatica/Documents/Baeldung/feign/src/test/java/com/baeldung/feign/clients/BookClientLiveTest.java
+/Users/rodrigolopezgatica/Documents/Baeldung/feign/src/test/java/com/baeldung/feign/clients/header/staticheader/BookClientLiveTest.java
+/Users/rodrigolopezgatica/Documents/Baeldung/feign/src/test/java/com/baeldung/feign/clients/header/interceptor/BookClientLiveTest.java
